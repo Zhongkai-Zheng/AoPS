@@ -1,0 +1,27 @@
+<template name="wiki">
+
+{{>layout}}
+
+<p>Welcome to Wiki</p>
+
+<div class="wikitable">
+	<table style="width:100%">
+	  <tr>
+	    <td><a class="wikilinks" href="{{pathFor route='wiki/math'}}">Mathematics</a></td>
+	  </tr>
+	  <tr>
+	  	<td><a class="wikilinks" href="{{pathFor route='wiki/physics'}}">Physics</a></td>
+	  </tr>
+	  <tr>
+	  	<td><a class="wikilinks" href="{{pathFor route='wiki/chemistry'}}">Chemistry</a></td>
+	  </tr>
+	  <tr>
+	  	<td><a class="wikilinks" href="{{pathFor route='wiki/biology'}}">Biology</a></td>
+	  </tr>
+	  <tr>
+	  	<td><a class="wikilinks" href="{{pathFor route='wiki/informatics'}}">Informatics</a></td>
+	  </tr>
+	</table>
+</div>
+
+</template>
