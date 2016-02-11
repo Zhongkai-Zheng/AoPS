@@ -22,3 +22,5 @@ iron:router
 twbs:bootstrap
 cfs:standard-packages
 cfs:gridfs
+accounts-ui
+accounts-password
