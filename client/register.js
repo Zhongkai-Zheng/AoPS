@@ -8,6 +8,7 @@ Template.register.events({
 				if(error) {
 					console.log(error.reason); 
 				} else {
+					 toastr.success('Account created!');
 					 Router.go("login"); 
 				}
 			});

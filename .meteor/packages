@@ -24,3 +24,6 @@ cfs:standard-packages
 cfs:gridfs
 accounts-ui
 accounts-password
+cfs:s3
+raix:ui-dropped-event
+chrismbeckett:toastr

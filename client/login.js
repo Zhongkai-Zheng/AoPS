@@ -9,6 +9,8 @@ Template.login.events({
 				console.log(error.reason);
 			} 
 			else{
+
+				toastr.success("Login successful!");
 				Router.go("home");
 			}
 		});
