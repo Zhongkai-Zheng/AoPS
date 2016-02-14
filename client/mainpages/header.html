@@ -3,29 +3,29 @@
   		<div class="container-fluid">
 			{{#if currentUser}}
 			<div class="navbar-header">
-      			<a class="navbar-brand" href="{{pathFor route='home'}}">AoPS</a>
+      			<a class="navbar-brand" href="{{pathFor route='home'}}">知识传播</a>
     		</div>
     		<ul class="nav navbar-nav">
-    			<li><a href="{{pathFor route='about'}}">About</a></li>
-    			<li><a href="{{pathFor route='resources'}}">Resources</a></li>
-          <li><a href="{{pathFor route='wiki'}}">Wiki</a></li>
-          <li><a href="{{pathFor route='problems'}}">Problems</a></li>
-      			<li><a href="{{pathFor route='forums'}}">Forums</a></li> 
-      			<li><a href="#" class="logout">Logout</a></li> 
-            <li><a href="{{pathFor route='register'}}">Register</a></li>
+    			<li><a href="{{pathFor route='about'}}">关于</a></li>
+    			<li><a href="{{pathFor route='resources'}}">资源</a></li>
+          <li><a href="{{pathFor route='wiki'}}">百科</a></li>
+          <li><a href="{{pathFor route='problems'}}">刷题</a></li>
+      			<li><a href="{{pathFor route='forums'}}">讨论</a></li> 
+      			<li><a href="#" class="logout">退出</a></li> 
+            <li><a href="{{pathFor route='register'}}">注册</a></li>
     		</ul>
 			{{else}}
 			<div class="navbar-header">
-            <a class="navbar-brand" href="{{pathFor route='home'}}">AoPS</a>
+            <a class="navbar-brand" href="{{pathFor route='home'}}">知识传播</a>
         </div>
         <ul class="nav navbar-nav">
-          <li><a href="{{pathFor route='about'}}">About</a></li>
-          <li><a href="{{pathFor route='wiki'}}">Wiki</a></li>
-          <li><a href="{{pathFor route='problems'}}">Problems</a></li>
-          <li><a href="{{pathFor route='resources'}}">Resources</a></li>
-            <li><a href="{{pathFor route='forums'}}">Forums</a></li> 
-            <li><a href="{{pathFor route='login'}}">Login</a></li>
-            <li><a href="{{pathFor route='register'}}">Register</a></li>
+          <li><a href="{{pathFor route='about'}}">关于</a></li>
+          <li><a href="{{pathFor route='wiki'}}">百科</a></li>
+          <li><a href="{{pathFor route='problems'}}">刷题</a></li>
+          <li><a href="{{pathFor route='resources'}}">资源</a></li>
+            <li><a href="{{pathFor route='forums'}}">讨论</a></li> 
+            <li><a href="{{pathFor route='login'}}">登录</a></li>
+            <li><a href="{{pathFor route='register'}}">注册</a></li>
         </ul>
 			{{/if}}
 		</div>
