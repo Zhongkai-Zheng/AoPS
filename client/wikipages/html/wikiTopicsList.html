@@ -1,22 +1,25 @@
 <template name="wikiTopicsList">
 
 <div class="wikiTopicsList">	
+	{{> searchBox }}
+    {{> searchResult}}
+	
 	<h1>7年级内容</h1>
-	{{> reactiveTable collection=myCollection}}
+	
 	<h1>8年级内容</h1>
-	{{> reactiveTable collection=myCollection}}
+	
 	<h1>9年级内容</h1>
-	{{> reactiveTable collection=myCollection}}
+	
 	<h1>10年级内容</h1>
-	{{> reactiveTable collection=myCollection}}
+	
 	<h1>11年级内容</h1>
-	{{> reactiveTable collection=myCollection}}
+	
 	<h1>12年级内容</h1>
-	{{> reactiveTable collection=myCollection}}
+	
 	<h1>奥林匹克竞赛内容</h1>
-	{{> reactiveTable collection=myCollection}}
+	
 	<h1>高等内容</h1>
-	{{> reactiveTable collection=myCollection}}
+	
 </div>
 
 </template>
